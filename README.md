@@ -12,13 +12,12 @@ Generate playable drum parts from scratch — or from any song — using Magenta
  
 ## How It Works
 1. Input
-  - Select option A (generate rhythms) or B (generate from song)
-  - If A is selected then the user has to choose between grooves or split sticking variations
+    - Select option A (generate rhythms) or B (generate from song)
+    - If A is selected then the user has to choose between grooves or split sticking variations
 2. Sequence generation
-  - Use DrumRNN to produce a drum sequence
+    - Use DrumRNN to produce a drum sequence
 3. Notation rendering
-  - Converts DrumRNN's output into a real drum partition using LilyPond and displays it onto a GUI
-
+    - Converts DrumRNN's output into a real drum partition using LilyPond and displays it onto a GUI
 
 ## Setup
 - Create a Python environment `pythono3 -m env env` `source venv/bin/activate`
